@@ -4,17 +4,14 @@ function NavBar() {
   const [showMenu, setShowMenu] = useState(false);
 
   return (
-    <nav className="bg-light-blue-900 font-bold text-lg">
-      <ul className="flex p-4 justify-end mr-4">
-        <li>
-          <button
-            className="text-gray-300 hover:text-white"
-            onClick={() => setShowMenu(!showMenu)}
-          >
-            Menu
-          </button>
-        </li>
-      </ul>
+    <div className="font-bold text-lg">
+      <button
+        className="text-gray-800 hover:text-gray-400 flex p-4 justify-end bg-black"
+        onClick={() => setShowMenu(!showMenu)}
+      >
+        Menu
+      </button>
+
       {showMenu && (
         <div className="absolute top-0 right-0 mt-16 mr-4 bg-gray-300 p-5 w-1/6 rounded-md">
           <ul className="flex flex-col gap-6 ml-8">
@@ -74,7 +71,7 @@ function NavBar() {
           </ul>
         </div>
       )}
-    </nav>
+    </div>
   );
 }
 
