@@ -1,0 +1,13 @@
+@keyframes slideDown {
+  from {
+    transform: translateX(100%);
+  }
+  to {
+    transform: translateX(0);
+  }
+}
+
+.animate-slide-down {
+  animation-name: slideDown;
+  animation-duration: 0.5s;
+}
