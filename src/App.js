@@ -7,6 +7,13 @@ function App() {
     <>
       <NavBar />
       <Home />
+      <Home />
+      <Home />
+      <Home />
+      <Home />
+      <Home />
+      <Home />
+      <Home />
     </>
   );
 }

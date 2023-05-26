@@ -1,14 +1,31 @@
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import "./NavBar.css";
 
 function NavBar() {
-  const [showNav, setShowNav] = useState(false);
   const [showMenuToggle, setShowMenuToggle] = useState(false);
   const [showMenu, setShowMenu] = useState(false);
 
+  useEffect(() => {
+    const handleScroll = () => {
+      const scrollTop = window.pageYOffset;
+
+      if (scrollTop > 0) {
+        setShowMenuToggle(true);
+      } else {
+        setShowMenuToggle(false);
+      }
+    };
+
+    window.addEventListener("scroll", handleScroll);
+
+    return () => {
+      window.removeEventListener("scroll", handleScroll);
+    };
+  }, []);
+
   return (
-    <div className="pb-6">
-      <div className=" font-bold text-lg flex justify-center p-6 shadow-md">
+    <div>
+      <div className="font-bold text-lg flex justify-center p-6 mb-6 shadow-md fixed top-0 w-full bg-white z-10">
         <ul className="flex flex-row gap-6">
           <li>
             <a
@@ -46,7 +63,7 @@ function NavBar() {
       </div>
 
       {showMenuToggle && (
-        <div className="font-bold text-lg flex justify-end relative">
+        <div className="font-bold text-lg flex justify-end p-6 mb-6 fixed top-0 right-0 z-20">
           <button
             className="text-gray-300 bg-gray-800 hover:bg-gray-600 rounded-md p-4 m-4 transition duration-500 ease-in-out"
             onClick={() => setShowMenu(!showMenu)}
@@ -68,8 +85,8 @@ function NavBar() {
           </button>
 
           {showMenu && (
-            <div className="absolute mt-24 mr-4 bg-gray-300 p-4 w-1/6 rounded-md shadow-lg animate-slide-down">
-              <ul className="flex flex-col gap-6 ml-8">
+            <div className="absolute top-32 right-10 bg-gray-300 p-6  rounded-md shadow-lg animate-slide-down">
+              <ul className="flex flex-col gap-6 ml-4">
                 <li className="flex justify-end">
                   <button
                     className="text-gray-900 hover:text-indigo-400"
