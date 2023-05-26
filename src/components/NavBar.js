@@ -30,7 +30,7 @@ function NavBar() {
           <li>
             <a
               href="/"
-              className="text-gray-900 hover:font-bold hover:text-gray-400"
+              className="text-gray-900 hover:font-bold hover:text-orange-500"
             >
               Home
             </a>
@@ -38,7 +38,7 @@ function NavBar() {
           <li>
             <a
               href="/about"
-              className="text-gray-900 hover:font-bold hover:text-gray-400"
+              className="text-gray-900 hover:font-bold hover:text-orange-500"
             >
               About
             </a>
@@ -46,7 +46,7 @@ function NavBar() {
           <li>
             <a
               href="/projects"
-              className="text-gray-900 hover:font-bold hover:text-gray-400"
+              className="text-gray-900 hover:font-bold hover:text-orange-500"
             >
               Projects
             </a>
@@ -54,7 +54,7 @@ function NavBar() {
           <li>
             <a
               href="/contact"
-              className="text-gray-900 hover:font-bold hover:text-gray-400"
+              className="text-gray-900 hover:font-bold hover:text-orange-500"
             >
               Contact
             </a>
@@ -85,8 +85,8 @@ function NavBar() {
           </button>
 
           {showMenu && (
-            <div className="absolute top-32 right-10 bg-gray-300 p-6  rounded-md shadow-lg animate-slide-down">
-              <ul className="flex flex-col gap-6 ml-4">
+            <div className="absolute top-32 right-10 bg-gray-300 p-6 w-60 rounded-md shadow-lg animate-slide-down">
+              <ul className="flex flex-col gap-6 ml-6">
                 <li className="flex justify-end">
                   <button
                     className="text-gray-900 hover:text-indigo-400"
@@ -111,7 +111,7 @@ function NavBar() {
                 <li>
                   <a
                     href="/"
-                    className="text-gray-900 hover:font-bold hover:text-gray-400"
+                    className="text-gray-900 hover:font-bold hover:text-orange-500"
                   >
                     Home
                   </a>
@@ -119,7 +119,7 @@ function NavBar() {
                 <li>
                   <a
                     href="/about"
-                    className="text-gray-900 hover:font-bold hover:text-gray-400"
+                    className="text-gray-900 hover:font-bold hover:text-orange-500"
                   >
                     About
                   </a>
@@ -127,7 +127,7 @@ function NavBar() {
                 <li>
                   <a
                     href="/projects"
-                    className="text-gray-900 hover:font-bold hover:text-gray-400"
+                    className="text-gray-900 hover:font-bold hover:text-orange-500"
                   >
                     Projects
                   </a>
@@ -135,7 +135,7 @@ function NavBar() {
                 <li>
                   <a
                     href="/contact"
-                    className="text-gray-900 hover:font-bold hover:text-gray-400"
+                    className="text-gray-900 hover:font-bold hover:text-orange-500"
                   >
                     Contact
                   </a>
@@ -145,7 +145,7 @@ function NavBar() {
                   <a
                     href="./assets/DiegoPartida_Resume.pdf"
                     download="DiegoPartida_Resume.pdf"
-                    className="text-gray-900 hover:font-bold hover:text-gray-400 flex flex-row gap-2"
+                    className="text-gray-900 hover:font-bold hover:text-orange-500 flex flex-row gap-2"
                   >
                     CV
                     <svg
