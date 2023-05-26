@@ -3,6 +3,7 @@ import "./NavBar.css";
 
 function NavBar() {
   const [showMenu, setShowMenu] = useState(false);
+  const [hoverOption, setHoverOption] = useState(false);
 
   return (
     <div className="font-bold text-lg flex justify-end relative">
@@ -27,7 +28,6 @@ function NavBar() {
       </button>
 
       {showMenu && (
-        // Animate just once when the menu is shown
         <div className="absolute mt-24 mr-4 bg-gray-300 p-4 w-1/6 rounded-md shadow-lg animate-slide-down">
           <ul className="flex flex-col gap-6 ml-8">
             <li className="flex justify-end">
@@ -55,6 +55,8 @@ function NavBar() {
               <a
                 href="/"
                 className="text-gray-900 hover:font-bold hover:text-gray-400"
+                onMouseDown={() => setHoverOption(true)}
+                onMouseUp={() => setHoverOption(false)}
               >
                 Home
               </a>
