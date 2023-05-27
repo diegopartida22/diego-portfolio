@@ -30,7 +30,7 @@ function NavBar() {
   return (
     <div>
       {showNabar && (
-        <div className="font-bold text-lg flex justify-center p-6 mb-6 shadow-md fixed top-0 w-full bg-white z-10 animate-slide-up">
+        <div className="font-bold text-xl flex justify-center p-6 mb-6 shadow-md fixed top-0 w-full bg-white z-10 animate-slide-up">
           <ul className="flex flex-row gap-6">
             <li>
               <a
