@@ -11,3 +11,17 @@
   animation-name: slideDown;
   animation-duration: 0.5s;
 }
+
+@keyframes slideUp {
+  from {
+    transform: translateY(-100%);
+  }
+  to {
+    transform: translateY(0);
+  }
+}
+
+.animate-slide-up {
+  animation-name: slideUp;
+  animation-duration: 0.5s;
+}

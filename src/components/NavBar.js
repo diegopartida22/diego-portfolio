@@ -2,6 +2,7 @@ import { useState, useEffect } from "react";
 import "./NavBar.css";
 
 function NavBar() {
+  const [showNabar, setShowNabar] = useState(true);
   const [showMenuToggle, setShowMenuToggle] = useState(false);
   const [showMenu, setShowMenu] = useState(false);
 
@@ -10,9 +11,12 @@ function NavBar() {
       const scrollTop = window.pageYOffset;
 
       if (scrollTop > 0) {
+        setShowNabar(false);
         setShowMenuToggle(true);
       } else {
+        setShowNabar(true);
         setShowMenuToggle(false);
+        setShowMenu(false);
       }
     };
 
@@ -25,45 +29,47 @@ function NavBar() {
 
   return (
     <div>
-      <div className="font-bold text-lg flex justify-center p-6 mb-6 shadow-md fixed top-0 w-full bg-white z-10">
-        <ul className="flex flex-row gap-6">
-          <li>
-            <a
-              href="/"
-              className="text-gray-900 hover:font-bold hover:text-orange-500"
-            >
-              Home
-            </a>
-          </li>
-          <li>
-            <a
-              href="/about"
-              className="text-gray-900 hover:font-bold hover:text-orange-500"
-            >
-              About
-            </a>
-          </li>
-          <li>
-            <a
-              href="/projects"
-              className="text-gray-900 hover:font-bold hover:text-orange-500"
-            >
-              Projects
-            </a>
-          </li>
-          <li>
-            <a
-              href="/contact"
-              className="text-gray-900 hover:font-bold hover:text-orange-500"
-            >
-              Contact
-            </a>
-          </li>
-        </ul>
-      </div>
+      {showNabar && (
+        <div className="font-bold text-lg flex justify-center p-6 mb-6 shadow-md fixed top-0 w-full bg-white z-10 animate-slide-up">
+          <ul className="flex flex-row gap-6">
+            <li>
+              <a
+                href="/"
+                className="text-gray-900 hover:font-bold hover:text-orange-500"
+              >
+                Home
+              </a>
+            </li>
+            <li>
+              <a
+                href="/about"
+                className="text-gray-900 hover:font-bold hover:text-orange-500"
+              >
+                About
+              </a>
+            </li>
+            <li>
+              <a
+                href="/projects"
+                className="text-gray-900 hover:font-bold hover:text-orange-500"
+              >
+                Projects
+              </a>
+            </li>
+            <li>
+              <a
+                href="/contact"
+                className="text-gray-900 hover:font-bold hover:text-orange-500"
+              >
+                Contact
+              </a>
+            </li>
+          </ul>
+        </div>
+      )}
 
       {showMenuToggle && (
-        <div className="font-bold text-lg flex justify-end p-6 mb-6 fixed top-0 right-0 z-20">
+        <div className="font-bold text-lg flex justify-end p-6 mb-6 fixed top-0 right-0 z-20 animate-slide-down">
           <button
             className="text-gray-300 bg-gray-800 hover:bg-gray-600 rounded-md p-4 m-4 transition duration-500 ease-in-out"
             onClick={() => setShowMenu(!showMenu)}
