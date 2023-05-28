@@ -3,22 +3,40 @@ import React from "react";
 function Projects() {
   const projects = [
     {
-      title: "Project 1",
+      title: "ApeironAI",
       description:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus id libero tincidunt, convallis purus ac, tristique est.",
-      imageUrl: "/images/Epañeman.PNG",
+        "Developed a range of tools for creative and practical applications such as coding, marketing, art, and typography.",
+      imageUrl: "/images/ApeironAI.PNG",
     },
     {
-      title: "Project 2",
+      title: "Numerologist Portfolio",
       description:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus id libero tincidunt, convallis purus ac, tristique est.",
-      imageUrl: "/images/Epañeman.PNG",
+        "Technical skills in React.js and Bootstrap, with a deep understanding of front-end development best practices.",
+      imageUrl: "/images/NumerologistPortfolio.PNG",
     },
     {
-      title: "Project 3",
+      title: "Diagnosis of malaria through a red blood cell",
       description:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus id libero tincidunt, convallis purus ac, tristique est.",
-      imageUrl: "/images/Epañeman.PNG",
+        "Developed a MatLab App for malaria diagnosis using non-uniform electric fields to analyze red blood cells.",
+      imageUrl: "/images/MalariaDiagnosis.PNG",
+    },
+    {
+      title: "Phylogenetic tree of SARS-COV-2 variants in different countries",
+      description:
+        "Created a phylogenetic tree of SARS-COV-2 variants in different countries using RStudio program and NCBI database.",
+      imageUrl: "/images/SARS-COV-2PhylogeneticTree.PNG",
+    },
+    {
+      title: "Scheduling Web-App",
+      description:
+        "Developed an automated scheduling system that makes it easier to manage your daily tasks.",
+      imageUrl: "/images/SchedulingWebApp.PNG",
+    },
+    {
+      title: "My Portfolio",
+      description:
+        "This is my portfolio, where I show my projects and my skills.",
+      imageUrl: "/images/MyPortfoliox.PNG",
     },
   ];
 
