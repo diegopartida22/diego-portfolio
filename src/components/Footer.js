@@ -5,7 +5,7 @@ function Footer() {
     <footer className="bg-gray-800 py-4 mt-8">
       <div className="container mx-auto px-4 flex items-center justify-center sm:mb-0 mb-2">
         <p className="text-white">
-          Built From Scratch With{" "}
+          Built With{" "}
           <span role="img" aria-label="heart">
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -22,9 +22,8 @@ function Footer() {
               />
             </svg>
           </span>{" "}
-          © Copyright 2023,
+          by Diego Partida
         </p>
-        <p className="text-white ml-1">Diego Partida. All Rights Reserved.</p>
       </div>
     </footer>
   );
