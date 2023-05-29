@@ -20,9 +20,9 @@ function Home() {
       </div>
 
       <img
-        src="/images/Epañeman.PNG"
+        src="/images/pixelme.png"
         className="w-64 sm:w-96 mx-auto mt-8 rounded-xl border-4 border-gray-200"
-        alt="Epañeman"
+        alt="Me pixelated"
       />
 
       <div className="flex justify-center mt-8 text-2xl sm:text-3xl text-gray-600">
