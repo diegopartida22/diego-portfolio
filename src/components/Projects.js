@@ -6,13 +6,15 @@ function Projects() {
       title: "ApeironAI",
       description:
         "Developed a range of tools for creative and practical applications such as coding, marketing, art, and typography.",
-      imageUrl: "/images/projects/ApeironAI.PNG",
+      imageUrl: "/images/ApeironAI.PNG",
+      link: "https://www.apeiron-ai.com/",
     },
     {
       title: "Numerologist Portfolio",
       description:
         "Technical skills in React.js and Bootstrap, with a deep understanding of front-end development best practices.",
-      imageUrl: "/images/projects/MarychelyPortfolio.png",
+      imageUrl: "/images/MarychelyPortfolio.png",
+      link: "https://marychelyromero.com/",
     },
     // {
     //   title: "Diagnosis of malaria through a red blood cell",
@@ -30,13 +32,14 @@ function Projects() {
       title: "Scheduling Web-App",
       description:
         "Developed an automated scheduling system that makes it easier to manage your daily tasks.",
-      imageUrl: "/images/projects/SchedulingApp.PNG",
+      imageUrl: "/images/SchedulingApp.PNG",
     },
     {
       title: "My Portfolio",
       description:
         "This is my portfolio, where I show my projects and my skills.",
-      imageUrl: "/images/projects/MyPortfolio.png",
+      imageUrl: "/images/MyPortfolio.png",
+      link: "https://diegopartida.netlify.app/",
     },
   ];
 
@@ -53,6 +56,7 @@ function Projects() {
           <div
             key={index}
             className="bg-white rounded-lg shadow-lg hover:scale-105 transform transition-transform duration-300"
+            onClick={() => window.open(project.link, "_blank")}
           >
             <img
               src={project.imageUrl}

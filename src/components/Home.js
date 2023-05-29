@@ -24,6 +24,30 @@ function Home() {
         className="w-64 sm:w-96 mx-auto mt-8 rounded-xl border-4 border-gray-200"
         alt="Epañeman"
       />
+
+      <div className="flex justify-center mt-8 text-2xl sm:text-3xl text-gray-600">
+        <a
+          href="./assets/DiegoPartida_Resume.pdf"
+          download="DiegoPartida_Resume.pdf"
+          className="hover:font-bold hover:text-orange-500 flex flex-row gap-2"
+        >
+          Download CV
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            fill="none"
+            viewBox="0 0 24 24"
+            strokeWidth={1.5}
+            stroke="currentColor"
+            className="w-8 h-w-w-8"
+          >
+            <path
+              strokeLinecap="round"
+              strokeLinejoin="round"
+              d="M3 16.5v2.25A2.25 2.25 0 005.25 21h13.5A2.25 2.25 0 0021 18.75V16.5M16.5 12L12 16.5m0 0L7.5 12m4.5 4.5V3"
+            />
+          </svg>
+        </a>
+      </div>
     </div>
   );
 }
