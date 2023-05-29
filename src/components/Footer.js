@@ -3,8 +3,8 @@ import React from "react";
 function Footer() {
   return (
     <footer className="bg-gray-800 py-4 mt-8">
-      <div className="container mx-auto px-4 flex flex-wrap items-center justify-center sm:justify-between">
-        <p className="text-white mb-2 sm:mb-0">
+      <div className="container mx-auto px-4 flex items-center justify-center sm:mb-0 mb-2">
+        <p className="text-white">
           Built From Scratch With{" "}
           <span role="img" aria-label="heart">
             <svg

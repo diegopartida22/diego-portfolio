@@ -17,7 +17,7 @@ function Contact() {
           >
             <svg
               xmlns="http://www.w3.org/2000/svg"
-              className="w-16 h-16 mr-2"
+              className="w-10 h-10 sm:h-16 sm:w-16 mr-2"
               viewBox="0 0 24 24"
               strokeWidth="1.5"
               stroke="currentColor"
@@ -44,7 +44,7 @@ function Contact() {
           >
             <svg
               xmlns="http://www.w3.org/2000/svg"
-              className="w-16 h-16 mr-2"
+              className="w-10 h-10 sm:h-16 sm:w-16 mr-2"
               viewBox="0 0 24 24"
               strokeWidth="1.5"
               stroke="currentColor"
@@ -67,7 +67,7 @@ function Contact() {
           >
             <svg
               xmlns="http://www.w3.org/2000/svg"
-              className="w-16 h-16 mr-2"
+              className="w-10 h-10 sm:h-16 sm:w-16 mr-2"
               viewBox="0 0 24 24"
               strokeWidth="1.5"
               stroke="currentColor"
