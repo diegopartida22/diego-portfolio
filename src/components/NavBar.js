@@ -39,7 +39,7 @@ function NavBar() {
   return (
     <div>
       {showNabar && (
-        <div className="font-bold text-xl flex justify-center p-6 mb-6 shadow-md fixed top-0 w-full bg-white z-10 animate-slide-up">
+        <div className="font-bold text-s sm:text-xl flex justify-center p-6 mb-6 shadow-md fixed top-0 w-full bg-white z-10 animate-slide-up">
           <ul className="flex flex-row gap-6">
             <li>
               <a
@@ -115,9 +115,9 @@ function NavBar() {
       )}
 
       {showMenuToggle && (
-        <div className="font-bold text-lg flex justify-end p-6 mb-6 fixed top-0 right-0 z-20 animate-slide-down">
+        <div className="font-bold text-lg flex justify-end sm:p-6 mb-6 fixed top-0 right-0 z-20 animate-slide-down">
           <button
-            className="text-gray-300 bg-gray-800 hover:bg-gray-600 rounded-md pd-2 sm:p-4  m-4 transition duration-500 ease-in-out"
+            className="text-gray-300 bg-gray-800 hover:bg-gray-600 rounded-md p-2 sm:p-4 m-4 transition duration-500 ease-in-out"
             onClick={() => setShowMenu(!showMenu)}
           >
             <svg
@@ -137,7 +137,7 @@ function NavBar() {
           </button>
 
           {showMenu && (
-            <div className="absolute top-32 right-10 bg-gray-300 p-6 w-60 rounded-md shadow-lg animate-slide-down">
+            <div className="absolute top-20 sm:top-32 right-4 sm:right-10 bg-gray-300 p-6 w-40 sm:w-60 rounded-md shadow-lg animate-slide-down">
               <ul className="flex flex-col gap-6 ml-6">
                 <li className="flex justify-end">
                   <button
