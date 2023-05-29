@@ -7,7 +7,7 @@ function Contact() {
       <h1 className="text-4xl sm:text-5xl font-bold text-gray-800 flex justify-center mt-8">
         Contact
       </h1>
-      <div className="flex flex-row items-center justify-center mt-8 gap-12">
+      <div className="flex flex-col sm:flex-row items-center justify-center mt-8 gap-12">
         <div>
           <a
             href="https://www.linkedin.com/in/diegopartidaromero/"
@@ -17,7 +17,7 @@ function Contact() {
           >
             <svg
               xmlns="http://www.w3.org/2000/svg"
-              className="w-10 h-10 sm:h-16 sm:w-16 mr-2"
+              className="h-16 w-16 mr-2"
               viewBox="0 0 24 24"
               strokeWidth="1.5"
               stroke="currentColor"
@@ -40,11 +40,11 @@ function Contact() {
             href="https://github.com/diegopartida22"
             target="_blank"
             rel="noopener noreferrer"
-            className="text-gray-800 hover:text-indigo-500 flex items-center ml-4"
+            className="text-gray-800 hover:text-indigo-500 flex items-center sm:ml-4"
           >
             <svg
               xmlns="http://www.w3.org/2000/svg"
-              className="w-10 h-10 sm:h-16 sm:w-16 mr-2"
+              className="h-16 w-16 mr-2"
               viewBox="0 0 24 24"
               strokeWidth="1.5"
               stroke="currentColor"
@@ -63,11 +63,11 @@ function Contact() {
             href="https://www.instagram.com/diegopartida22/"
             target="_blank"
             rel="noopener noreferrer"
-            className="text-gray-800 hover:text-indigo-500 flex items-center ml-4"
+            className="text-gray-800 hover:text-indigo-500 flex items-center sm:ml-4"
           >
             <svg
               xmlns="http://www.w3.org/2000/svg"
-              className="w-10 h-10 sm:h-16 sm:w-16 mr-2"
+              className="h-14 w-14 sm:h-16 sm:w-16 mr-2"
               viewBox="0 0 24 24"
               strokeWidth="1.5"
               stroke="currentColor"
@@ -83,9 +83,16 @@ function Contact() {
           </a>
         </div>
       </div>
-      <div className="max-w-md mx-auto mt-8">
-        {/* <form>
-          <div className="mb-4">
+      {/* <div className="max-w-md mx-auto mt-8">
+        <h2 className="text-2xl font-bold text-gray-800 flex justify-center mt-8">
+          Send me a message
+        </h2>
+        <p className="text-gray-600 text-center mt-2">
+          I'll get back to you as soon as possible.
+        </p>
+
+        <form>
+          <div className="mb-4 rounded-md sm:px-4 px-8">
             <label htmlFor="name" className="text-gray-800">
               Name:
             </label>
@@ -98,7 +105,7 @@ function Contact() {
             />
           </div>
 
-          <div className="mb-4">
+          <div className="mb-4 rounded-md sm:px-4 px-8">
             <label htmlFor="email" className="text-gray-800">
               Email:
             </label>
@@ -111,7 +118,7 @@ function Contact() {
             />
           </div>
 
-          <div className="mb-4">
+          <div className="mb-4 rounded-md sm:px-4 px-8">
             <label htmlFor="message" className="text-gray-800">
               Message:
             </label>
@@ -132,8 +139,8 @@ function Contact() {
               Send Message
             </button>
           </div>
-        </form> */}
-      </div>
+        </form>
+      </div> */}
     </div>
   );
 }

@@ -2,28 +2,28 @@ import { useState, useEffect } from "react";
 import "./NavBar.css";
 
 function NavBar() {
-  const [showNabar, setShowNabar] = useState(true);
+  const [showNavbar, setShowNavbar] = useState(true);
   const [showMenuToggle, setShowMenuToggle] = useState(false);
   const [showMenu, setShowMenu] = useState(false);
-  const [theme, setTheme] = useState("light");
+  // const [theme, setTheme] = useState("light");
 
-  const toggleTheme = () => {
-    if (theme === "light") {
-      setTheme("dark");
-    } else {
-      setTheme("light");
-    }
-  };
+  // const toggleTheme = () => {
+  //   if (theme === "light") {
+  //     setTheme("dark");
+  //   } else {
+  //     setTheme("light");
+  //   }
+  // };
 
   useEffect(() => {
     const handleScroll = () => {
       const scrollTop = window.pageYOffset;
 
       if (scrollTop > 0) {
-        setShowNabar(false);
+        setShowNavbar(false);
         setShowMenuToggle(true);
       } else {
-        setShowNabar(true);
+        setShowNavbar(true);
         setShowMenuToggle(false);
         setShowMenu(false);
       }
@@ -38,7 +38,7 @@ function NavBar() {
 
   return (
     <div>
-      {showNabar && (
+      {showNavbar && (
         <div className="font-bold text-s sm:text-xl flex justify-center p-6 mb-6 shadow-md fixed top-0 w-full bg-white z-10 animate-slide-up">
           <ul className="flex flex-row gap-6">
             <li>
@@ -74,8 +74,8 @@ function NavBar() {
               </a>
             </li>
 
-            <button
-              className="text-gray-300 bg-gray-800 hover:bg-gray-600 rounded-md p-2 transition duration-500 ease-in-out -mt-2 flex justify-end"
+            {/* <button
+              className="text-gray-300 bg-gray-800 hover:bg-gray-600 rounded-md p-2 transition duration-500 ease-in-out"
               onClick={toggleTheme}
             >
               {theme === "light" ? (
@@ -85,7 +85,7 @@ function NavBar() {
                   viewBox="0 0 24 24"
                   strokeWidth={1.5}
                   stroke="currentColor"
-                  className="w-6 h-6"
+                  className="w-5 h-5 sm:w-6 sm:h-6"
                 >
                   <path
                     strokeLinecap="round"
@@ -100,7 +100,7 @@ function NavBar() {
                   viewBox="0 0 24 24"
                   strokeWidth={1.5}
                   stroke="currentColor"
-                  className="w-6 h-6"
+                  className="w-5 h-5 sm:w-6 sm:h-6"
                 >
                   <path
                     strokeLinecap="round"
@@ -109,7 +109,7 @@ function NavBar() {
                   />
                 </svg>
               )}
-            </button>
+            </button> */}
           </ul>
         </div>
       )}
