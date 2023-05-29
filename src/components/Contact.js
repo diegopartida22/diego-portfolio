@@ -3,7 +3,7 @@ import React from "react";
 function Contact() {
   return (
     <div className="mt-12">
-      <hr className="border-2 border-gray-200 w-1/2 mx-auto" />
+      <hr className="border-2 border-gray-200 w-1/4 mx-auto" />
       <h1 className="text-4xl sm:text-5xl font-bold text-gray-800 flex justify-center mt-8">
         Contact
       </h1>

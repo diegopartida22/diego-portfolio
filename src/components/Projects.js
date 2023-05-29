@@ -42,7 +42,7 @@ function Projects() {
 
   return (
     <div className="mt-12">
-      <hr className="border-2 border-gray-200 w-1/2 mx-auto" />
+      <hr className="border-2 border-gray-200 w-1/4 mx-auto" />
 
       <h1 className="text-4xl sm:text-5xl font-bold text-gray-800 flex justify-center mt-8">
         Projects
@@ -50,11 +50,14 @@ function Projects() {
 
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 gap-10 mt-8 px-8">
         {projects.map((project, index) => (
-          <div key={index} className="bg-white rounded-lg shadow-lg">
+          <div
+            key={index}
+            className="bg-white rounded-lg shadow-lg hover:scale-105 transform transition-transform duration-300"
+          >
             <img
               src={project.imageUrl}
               alt={project.title}
-              className="w-full  object-cover object-center rounded-t-lg"
+              className="w-full object-cover object-center rounded-t-lg"
             />
             <div className="p-6">
               <h2 className="text-2xl font-bold text-gray-800 mb-2">
