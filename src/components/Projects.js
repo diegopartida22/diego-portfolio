@@ -6,7 +6,7 @@ function Projects() {
       title: "ApeironAI",
       description:
         "Developed a range of tools for creative and practical applications such as coding, marketing, art, and typography.",
-      imageUrl: "/images/ApeironAI.PNG",
+      imageUrl: "/images/ApeironAI.png",
       link: "https://www.apeiron-ai.com/",
     },
     {
@@ -20,19 +20,19 @@ function Projects() {
     //   title: "Diagnosis of malaria through a red blood cell",
     //   description:
     //     "Developed a MatLab App for malaria diagnosis using non-uniform electric fields to analyze red blood cells.",
-    //   imageUrl: "/images/MalariaDiagnosis.PNG",
+    //   imageUrl: "/images/MalariaDiagnosis.png",
     // },
     // {
     //   title: "Phylogenetic tree of SARS-COV-2 variants in different countries",
     //   description:
     //     "Created a phylogenetic tree of SARS-COV-2 variants in different countries using RStudio program and NCBI database.",
-    //   imageUrl: "/images/SARS-COV-2PhylogeneticTree.PNG",
+    //   imageUrl: "/images/SARS-COV-2PhylogeneticTree.png",
     // },
     {
       title: "Scheduling Web-App",
       description:
         "Developed an automated scheduling system that makes it easier to manage your daily tasks.",
-      imageUrl: "/images/SchedulingApp.PNG",
+      imageUrl: "/images/SchedulingApp.png",
     },
     {
       title: "My Portfolio",
