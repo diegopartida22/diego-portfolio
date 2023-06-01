@@ -13,11 +13,11 @@ function Contact() {
             href="https://www.linkedin.com/in/diegopartidaromero/"
             target="_blank"
             rel="noopener noreferrer"
-            className="text-gray-800 hover:text-indigo-500 flex items-center"
+            className="text-gray-800 hover:text-indigo-500 flex items-center hover:-translate-y-1 transition duration-300 ease-in-out"
           >
             <svg
               xmlns="http://www.w3.org/2000/svg"
-              className="h-16 w-16 mr-2"
+              className="h-16 w-16"
               viewBox="0 0 24 24"
               strokeWidth="1.5"
               stroke="currentColor"
@@ -32,7 +32,6 @@ function Contact() {
               <line x1="12" y1="16" x2="12" y2="11" />
               <path d="M16 16v-3a2 2 0 0 0 -4 0" />
             </svg>
-            LinkedIn
           </a>
         </div>
         <div>
@@ -40,11 +39,11 @@ function Contact() {
             href="https://github.com/diegopartida22"
             target="_blank"
             rel="noopener noreferrer"
-            className="text-gray-800 hover:text-indigo-500 flex items-center sm:ml-4"
+            className="text-gray-800 hover:text-indigo-500 flex items-center  hover:-translate-y-1 transition duration-300 ease-in-out "
           >
             <svg
               xmlns="http://www.w3.org/2000/svg"
-              className="h-16 w-16 mr-2"
+              className="h-16 w-16"
               viewBox="0 0 24 24"
               strokeWidth="1.5"
               stroke="currentColor"
@@ -55,7 +54,6 @@ function Contact() {
               <path stroke="none" d="M0 0h24v24H0z" fill="none" />
               <path d="M9 19c-4.3 1.4 -4.3 -2.5 -6 -3m12 5v-3.5c0 -1 .1 -1.4 -.5 -2c2.7 -.3 5.5 -1.3 5.5 -6a4.6 4.6 0 0 0 -1.3 -3.2a4.2 4.2 0 0 0 -.1 -3.2s-1.1 -.3 -3.5 1.3a11.7 11.7 0 0 0 -6 0c-2.4 -1.6 -3.5 -1.3 -3.5 -1.3a4.2 4.2 0 0 0 -.1 3.2a4.6 4.6 0 0 0 -1.3 3.2c0 4.7 2.8 5.7 5.5 6c-.6 .6 -.6 1.5 -.5 2v3.5" />
             </svg>
-            GitHub
           </a>
         </div>
         <div>
@@ -63,11 +61,11 @@ function Contact() {
             href="https://www.instagram.com/diegopartida22/"
             target="_blank"
             rel="noopener noreferrer"
-            className="text-gray-800 hover:text-indigo-500 flex items-center sm:ml-4"
+            className="text-gray-800 hover:text-indigo-500 flex items-center  hover:-translate-y-1 transition duration-300 ease-in-out "
           >
             <svg
               xmlns="http://www.w3.org/2000/svg"
-              className="h-14 w-14 sm:h-16 sm:w-16 mr-2"
+              className="h-14 w-14 sm:h-16 sm:w-16"
               viewBox="0 0 24 24"
               strokeWidth="1.5"
               stroke="currentColor"
@@ -79,7 +77,6 @@ function Contact() {
               <path d="M16 11.37a4 4 0 1 1 -3.83 -3.83" />
               <line x1="17.5" y1="6.5" x2="17.51" y2="6.5" />
             </svg>
-            Instagram
           </a>
         </div>
       </div>

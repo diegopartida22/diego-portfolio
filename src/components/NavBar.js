@@ -5,15 +5,6 @@ function NavBar() {
   const [showNavbar, setShowNavbar] = useState(true);
   const [showMenuToggle, setShowMenuToggle] = useState(false);
   const [showMenu, setShowMenu] = useState(false);
-  // const [theme, setTheme] = useState("light");
-
-  // const toggleTheme = () => {
-  //   if (theme === "light") {
-  //     setTheme("dark");
-  //   } else {
-  //     setTheme("light");
-  //   }
-  // };
 
   useEffect(() => {
     const handleScroll = () => {
