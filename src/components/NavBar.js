@@ -29,81 +29,46 @@ function NavBar() {
 
   return (
     <div>
-      {showNavbar && (
-        <div className="font-bold text-s sm:text-xl flex justify-center p-6 mb-6 shadow-md fixed top-0 w-full bg-white z-10 animate-slide-up">
-          <ul className="flex flex-row gap-6">
-            <li>
-              <a
-                href="/"
-                className="text-gray-900 hover:font-bold hover:text-orange-500"
-              >
-                Home
-              </a>
-            </li>
-            <li>
-              <a
-                href="/about"
-                className="text-gray-900 hover:font-bold hover:text-orange-500"
-              >
-                About
-              </a>
-            </li>
-            <li>
-              <a
-                href="/projects"
-                className="text-gray-900 hover:font-bold hover:text-orange-500"
-              >
-                Projects
-              </a>
-            </li>
-            <li>
-              <a
-                href="/contact"
-                className="text-gray-900 hover:font-bold hover:text-orange-500"
-              >
-                Contact
-              </a>
-            </li>
-
-            {/* <button
-              className="text-gray-300 bg-gray-800 hover:bg-gray-600 rounded-md p-2 transition duration-500 ease-in-out"
-              onClick={toggleTheme}
+      <div
+        className={`font-bold text-s sm:text-xl flex justify-center p-6 mb-6 shadow-md fixed top-0 w-full bg-white z-10  transition-all duration-500 ${
+          showNavbar ? "opacity-100 animate-slide-up" : "opacity-0"
+        }`}
+      >
+        <ul className="flex flex-row gap-6">
+          <li>
+            <a
+              href="/"
+              className="text-gray-900 hover:font-bold hover:text-orange-500"
             >
-              {theme === "light" ? (
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  fill="none"
-                  viewBox="0 0 24 24"
-                  strokeWidth={1.5}
-                  stroke="currentColor"
-                  className="w-5 h-5 sm:w-6 sm:h-6"
-                >
-                  <path
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    d="M21.752 15.002A9.718 9.718 0 0118 15.75c-5.385 0-9.75-4.365-9.75-9.75 0-1.33.266-2.597.748-3.752A9.753 9.753 0 003 11.25C3 16.635 7.365 21 12.75 21a9.753 9.753 0 009.002-5.998z"
-                  />
-                </svg>
-              ) : (
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  fill="none"
-                  viewBox="0 0 24 24"
-                  strokeWidth={1.5}
-                  stroke="currentColor"
-                  className="w-5 h-5 sm:w-6 sm:h-6"
-                >
-                  <path
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    d="M12 3v2.25m6.364.386l-1.591 1.591M21 12h-2.25m-.386 6.364l-1.591-1.591M12 18.75V21m-4.773-4.227l-1.591 1.591M5.25 12H3m4.227-4.773L5.636 5.636M15.75 12a3.75 3.75 0 11-7.5 0 3.75 3.75 0 017.5 0z"
-                  />
-                </svg>
-              )}
-            </button> */}
-          </ul>
-        </div>
-      )}
+              Home
+            </a>
+          </li>
+          <li>
+            <a
+              href="/about"
+              className="text-gray-900 hover:font-bold hover:text-orange-500"
+            >
+              About
+            </a>
+          </li>
+          <li>
+            <a
+              href="/projects"
+              className="text-gray-900 hover:font-bold hover:text-orange-500"
+            >
+              Projects
+            </a>
+          </li>
+          <li>
+            <a
+              href="/contact"
+              className="text-gray-900 hover:font-bold hover:text-orange-500"
+            >
+              Contact
+            </a>
+          </li>
+        </ul>
+      </div>
 
       {showMenuToggle && (
         <div className="font-bold text-lg flex justify-end sm:p-6 mb-6 fixed top-0 right-0 z-20 animate-slide-down">
