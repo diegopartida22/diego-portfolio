@@ -29,6 +29,13 @@ function Projects() {
     //   imageUrl: "/images/SARS-COV-2PhylogeneticTree.png",
     // },
     {
+      title: "SOLFund",
+      description:
+        "This is my portfolio, where I show my projects and my skills.",
+      imageUrl: "/images/SolFund.png",
+      link: "https://diegopartida.netlify.app/",
+    },
+    {
       title: "Scheduling Web-App",
       description:
         "Developed an automated scheduling system that makes it easier to manage your daily tasks.",
