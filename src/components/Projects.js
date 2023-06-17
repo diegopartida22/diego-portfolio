@@ -36,6 +36,13 @@ function Projects() {
       link: "https://diegopartida.netlify.app/",
     },
     {
+      title: "Car Selling Web-App",
+      description:
+        "This is my portfolio, where I show my projects and my skills.",
+      imageUrl: "/images/Car-Selling.png",
+      link: "https://diegopartida.netlify.app/",
+    },
+    {
       title: "Scheduling Web-App",
       description:
         "Developed an automated scheduling system that makes it easier to manage your daily tasks.",

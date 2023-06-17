@@ -44,10 +44,10 @@ function Habilities() {
         <div className="w-2/3">
           <div className="flex justify-center mb-4">
             <button
-              className={`px-4 py-2 mr-2 rounded-lg ${
+              className={`px-4 py-4 mr-2 rounded-lg  ${
                 currentCategory === "frameworks"
                   ? "bg-blue-500 text-white"
-                  : "bg-gray-200"
+                  : "bg-gray-200 hover:bg-gray-300"
               }`}
               onClick={() => handleCategoryChange("frameworks")}
             >
@@ -55,20 +55,20 @@ function Habilities() {
             </button>
 
             <button
-              className={`px-4 py-2 mr-2 rounded-lg ${
+              className={`px-4 py-4 mr-2 rounded-lg ${
                 currentCategory === "languages"
                   ? "bg-blue-500 text-white"
-                  : "bg-gray-200"
+                  : "bg-gray-200 hover:bg-gray-300"
               }`}
               onClick={() => handleCategoryChange("languages")}
             >
               Languages
             </button>
             <button
-              className={`px-4 py-2 rounded-lg ${
+              className={`px-4 py-4 rounded-lg ${
                 currentCategory === "technologies"
                   ? "bg-blue-500 text-white"
-                  : "bg-gray-200"
+                  : "bg-gray-200 hover:bg-gray-300"
               }`}
               onClick={() => handleCategoryChange("technologies")}
             >
