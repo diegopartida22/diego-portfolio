@@ -1,8 +1,9 @@
 import React from "react";
+import { Link } from "react-scroll";
 
 function Footer() {
   return (
-    <footer className="bg-gray-800 py-4 mt-8 w-full">
+    <footer className="bg-gray-800 py-4 mt-8 w-full" id="footer">
       <div className="container mx-auto px-4 flex items-center justify-center">
         <p className="text-white">
           Built With{" "}
@@ -25,20 +26,29 @@ function Footer() {
           by Diego Partida
         </p>
         <div className="flex flex-row gap-2 ml-2 text-white animate-bounce hover:text-blue-500 hover:cursor-pointer">
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            fill="none"
-            viewBox="0 0 24 24"
-            stroke-width="1.5"
-            stroke="currentColor"
-            class="w-6 h-6"
+          <Link
+            to="home"
+            smooth={true}
+            duration={500}
+            spy={true}
+            exact="true"
+            offset={-80}
           >
-            <path
-              stroke-linecap="round"
-              stroke-linejoin="round"
-              d="M8.25 6.75L12 3m0 0l3.75 3.75M12 3v18"
-            />
-          </svg>
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke-width="1.5"
+              stroke="currentColor"
+              class="w-6 h-6"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                d="M8.25 6.75L12 3m0 0l3.75 3.75M12 3v18"
+              />
+            </svg>
+          </Link>
         </div>
       </div>
     </footer>

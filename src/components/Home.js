@@ -2,7 +2,7 @@ import React from "react";
 
 function Home() {
   return (
-    <div className="mt-32 flex justify-center flex-col">
+    <div className="mt-32 flex justify-center flex-col" id="home">
       <h1 className="text-4xl sm:text-6xl font-bold text-gray-800 text-center">
         Hi! I'm Diego Partida
       </h1>

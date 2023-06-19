@@ -1,4 +1,5 @@
 import { useState, useEffect } from "react";
+import { Link } from "react-scroll";
 import "./NavBar.css";
 
 function NavBar() {
@@ -28,7 +29,7 @@ function NavBar() {
   }, []);
 
   return (
-    <div>
+    <div id="navbar">
       <div
         className={`font-bold text-s sm:text-xl flex justify-center p-6 mb-6 shadow-md fixed top-0 w-full bg-white z-10  transition-all duration-500 ${
           showNavbar ? "opacity-100 animate-slide-up" : "opacity-0"
@@ -36,36 +37,56 @@ function NavBar() {
       >
         <ul className="flex flex-row gap-6">
           <li>
-            <a
-              href="/"
+            <Link
               className="text-gray-900 hover:font-bold hover:text-orange-500"
+              to="home"
+              smooth={true}
+              duration={500}
+              spy={true}
+              exact="true"
+              offset={-80}
             >
               Home
-            </a>
+            </Link>
           </li>
           <li>
-            <a
-              href="/about"
+            <Link
               className="text-gray-900 hover:font-bold hover:text-orange-500"
+              to="about"
+              smooth={true}
+              duration={500}
+              spy={true}
+              exact="true"
+              offset={-80}
             >
               About
-            </a>
+            </Link>
           </li>
           <li>
-            <a
-              href="/projects"
+            <Link
               className="text-gray-900 hover:font-bold hover:text-orange-500"
+              to="projects"
+              smooth={true}
+              duration={500}
+              spy={true}
+              exact="true"
+              offset={-80}
             >
               Projects
-            </a>
+            </Link>
           </li>
           <li>
-            <a
-              href="/contact"
+            <Link
               className="text-gray-900 hover:font-bold hover:text-orange-500"
+              to="contact"
+              smooth={true}
+              duration={500}
+              spy={true}
+              exact="true"
+              offset={-80}
             >
               Contact
-            </a>
+            </Link>
           </li>
         </ul>
       </div>
@@ -117,36 +138,56 @@ function NavBar() {
                   </button>
                 </li>
                 <li>
-                  <a
-                    href="/"
+                  <Link
                     className="text-gray-900 hover:font-bold hover:text-orange-500"
+                    to="home"
+                    smooth={true}
+                    duration={500}
+                    spy={true}
+                    exact="true"
+                    offset={-80}
                   >
                     Home
-                  </a>
+                  </Link>
                 </li>
                 <li>
-                  <a
-                    href="/about"
+                  <Link
                     className="text-gray-900 hover:font-bold hover:text-orange-500"
+                    to="about"
+                    smooth={true}
+                    duration={500}
+                    spy={true}
+                    exact="true"
+                    offset={-80}
                   >
                     About
-                  </a>
+                  </Link>
                 </li>
                 <li>
-                  <a
-                    href="/projects"
+                  <Link
                     className="text-gray-900 hover:font-bold hover:text-orange-500"
+                    to="projects"
+                    smooth={true}
+                    duration={500}
+                    spy={true}
+                    exact="true"
+                    offset={-80}
                   >
                     Projects
-                  </a>
+                  </Link>
                 </li>
                 <li>
-                  <a
-                    href="/contact"
+                  <Link
                     className="text-gray-900 hover:font-bold hover:text-orange-500"
+                    to="contact"
+                    smooth={true}
+                    duration={500}
+                    spy={true}
+                    exact="true"
+                    offset={-80}
                   >
                     Contact
-                  </a>
+                  </Link>
                 </li>
 
                 <li className="mb-10">
