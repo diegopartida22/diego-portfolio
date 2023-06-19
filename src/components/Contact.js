@@ -32,7 +32,7 @@ function Contact() {
       <h1 className="text-4xl sm:text-5xl font-bold text-gray-800 flex justify-center mt-8">
         Contact
       </h1>
-      <div className="flex flex-wrap w-1/2 sm:w-full sm:flex justify-center mt-8 gap-12 mx-auto">
+      <div className="flex w-1/2 sm:w-full sm:flex justify-center mt-8 gap-12 mx-auto">
         <div>
           <a
             href="https://www.linkedin.com/in/diegopartidaromero/"
@@ -104,7 +104,7 @@ function Contact() {
             </svg>
           </a>
         </div>
-        <div className="sm:hidden">
+        {/* <div>
           <button className="text-gray-800 hover:text-indigo-500 flex items-center hover:-translate-y-1 transition duration-300 ease-in-out">
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -121,10 +121,10 @@ function Contact() {
               <polyline points="3 7 12 13 21 7" />
             </svg>
           </button>
-        </div>
+        </div> */}
       </div>
 
-      <div className="max-w-md mx-auto mt-14 hidden sm:block">
+      <div className="max-w-md mx-auto mt-14">
         <h2 className="text-2xl font-bold text-gray-800 flex justify-center mt-8">
           Send me a message
         </h2>
