@@ -1,19 +1,29 @@
-import React, { useState } from "react";
+import React, { useRef } from "react";
+import emailjs from "@emailjs/browser";
 
 function Contact() {
-  const [name, setName] = useState("");
-  const [email, setEmail] = useState("");
-  const [message, setMessage] = useState("");
+  const form = useRef();
 
-  const handleSubmit = (e) => {
+  const sendEmail = (e) => {
     e.preventDefault();
 
-    console.log("Name:", name);
-    console.log("Email:", email);
-    console.log("Message:", message);
-    setName("");
-    setEmail("");
-    setMessage("");
+    emailjs
+      .sendForm(
+        "service_0n0ac7p",
+        "template_3m9yral",
+        form.current,
+        "XXLP5sfZPwa0dOL4K"
+      )
+      .then(
+        (result) => {
+          console.log(result.text);
+        },
+        (error) => {
+          console.log(error.text);
+        }
+      );
+
+    form.current.reset();
   };
 
   return (
@@ -122,7 +132,7 @@ function Contact() {
           I'll get back to you as soon as possible.
         </p>
 
-        <form onSubmit={handleSubmit}>
+        <form ref={form} onSubmit={sendEmail} className="mt-4">
           <div className="mb-4 rounded-md sm:px-4 px-8">
             <label htmlFor="name" className="text-gray-800">
               Name:
@@ -130,7 +140,7 @@ function Contact() {
             <input
               type="text"
               id="name"
-              name="name"
+              name="user_name"
               className="w-full px-4 py-2 mt-2 border border-gray-300 rounded-md focus:outline-none focus:border-indigo-500"
               required
             />
@@ -143,7 +153,7 @@ function Contact() {
             <input
               type="email"
               id="email"
-              name="email"
+              name="user_email"
               className="w-full px-4 py-2 mt-2 border border-gray-300 rounded-md focus:outline-none focus:border-indigo-500"
               required
             />
@@ -156,6 +166,7 @@ function Contact() {
             <textarea
               id="message"
               name="message"
+              placeholder="Write your message here..."
               rows="5"
               className="w-full px-4 py-2 mt-2 border border-gray-300 rounded-md resize-none focus:outline-none focus:border-indigo-500"
               required

@@ -3,7 +3,7 @@ import { Link } from "react-scroll";
 
 function Footer() {
   return (
-    <footer className="bg-gray-800 py-4 mt-8 w-full" id="footer">
+    <footer className="bg-gray-800 py-4 mt-10 w-full" id="footer">
       <div className="container mx-auto px-4 flex items-center justify-center">
         <p className="text-white">
           Built With{" "}
@@ -39,13 +39,13 @@ function Footer() {
               xmlns="http://www.w3.org/2000/svg"
               fill="none"
               viewBox="0 0 24 24"
-              stroke-width="1.5"
+              strokeWidth="1.5"
               stroke="currentColor"
-              class="w-6 h-6"
+              className="w-6 h-6"
             >
               <path
-                stroke-linecap="round"
-                stroke-linejoin="round"
+                strokeLinecap="round"
+                strokeLinejoin="round"
                 d="M8.25 6.75L12 3m0 0l3.75 3.75M12 3v18"
               />
             </svg>
