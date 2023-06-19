@@ -88,7 +88,7 @@ function Projects() {
             <img
               src={project.imageUrl}
               alt={project.title}
-              className="w-full object-cover object-center rounded-t-lg"
+              className="w-full object-cover object-center rounded-t-lg animate-appearShort"
             />
             <div className="p-6">
               <h2 className="text-2xl font-bold text-gray-800 mb-2">

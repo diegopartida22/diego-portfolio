@@ -141,6 +141,7 @@ function Contact() {
               type="text"
               id="name"
               name="user_name"
+              placeholder="Enter your name..."
               className="w-full px-4 py-2 mt-2 border border-gray-300 rounded-md focus:outline-none focus:border-indigo-500"
               required
             />
@@ -154,6 +155,7 @@ function Contact() {
               type="email"
               id="email"
               name="user_email"
+              placeholder="Yout email address..."
               className="w-full px-4 py-2 mt-2 border border-gray-300 rounded-md focus:outline-none focus:border-indigo-500"
               required
             />
@@ -176,6 +178,7 @@ function Contact() {
           <div className="flex justify-center">
             <button
               type="submit"
+              onClick={() => alert("Message sent successfully!")}
               className="px-6 py-2 text-lg font-medium text-white bg-indigo-500 rounded-md hover:bg-indigo-600 focus:outline-none focus:bg-indigo-600"
             >
               Send Message
