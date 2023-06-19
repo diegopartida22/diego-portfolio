@@ -1,7 +1,9 @@
-import React, { useRef } from "react";
+import React, { useRef, useState } from "react";
 import emailjs from "@emailjs/browser";
 
 function Contact() {
+  const [successMessage, setSuccessMessage] = useState("");
+
   const form = useRef();
 
   const sendEmail = (e) => {
@@ -178,7 +180,6 @@ function Contact() {
           <div className="flex justify-center">
             <button
               type="submit"
-              onClick={() => alert("Message sent successfully!")}
               className="px-6 py-2 text-lg font-medium text-white bg-indigo-500 rounded-md hover:bg-indigo-600 focus:outline-none focus:bg-indigo-600"
             >
               Send Message
