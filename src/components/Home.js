@@ -3,10 +3,10 @@ import React from "react";
 function Home() {
   return (
     <div className="mt-32 flex justify-center flex-col" id="home">
-      <h1 className="text-4xl sm:text-6xl font-bold text-gray-800 text-center">
+      <h1 className="text-3xl sm:text-6xl font-bold text-gray-800 text-center">
         Hi! I'm Diego Partida
       </h1>
-      <div className="text-2xl sm:text-3xl text-gray-600">
+      <div className="text-xl sm:text-3xl text-gray-600">
         <p className="mt-8 mx-4 sm:mx-auto text-center">
           I'm a{" "}
           <span className="font-bold text-blue-500">
@@ -14,7 +14,7 @@ function Home() {
           </span>
         </p>
 
-        <p className="mt-2 mx-4 sm:mx-auto text-center">
+        <p className="mx-4 sm:mx-auto text-center">
           and a student at Tecnológico de Monterrey.
         </p>
       </div>
@@ -25,7 +25,7 @@ function Home() {
         alt="Me pixelated"
       />
 
-      <div className="flex justify-center mt-8 text-2xl sm:text-3xl text-gray-600">
+      <div className="flex justify-center mt-8 text-xl sm:text-3xl text-gray-600">
         <a
           href="./assets/DiegoPartida_Resume.pdf"
           download="DiegoPartida_Resume.pdf"

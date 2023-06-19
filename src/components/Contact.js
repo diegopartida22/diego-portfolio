@@ -1,13 +1,28 @@
-import React from "react";
+import React, { useState } from "react";
 
 function Contact() {
+  const [name, setName] = useState("");
+  const [email, setEmail] = useState("");
+  const [message, setMessage] = useState("");
+
+  const handleSubmit = (e) => {
+    e.preventDefault();
+
+    console.log("Name:", name);
+    console.log("Email:", email);
+    console.log("Message:", message);
+    setName("");
+    setEmail("");
+    setMessage("");
+  };
+
   return (
     <div className="mt-12" id="contact">
       <hr className="border-2 border-gray-200 w-1/4 mx-auto" />
       <h1 className="text-4xl sm:text-5xl font-bold text-gray-800 flex justify-center mt-8">
         Contact
       </h1>
-      <div className="flex flex-col sm:flex-row items-center justify-center mt-8 gap-12">
+      <div className="flex flex-wrap w-1/2 sm:w-full sm:flex justify-center mt-8 gap-12 mx-auto">
         <div>
           <a
             href="https://www.linkedin.com/in/diegopartidaromero/"
@@ -79,8 +94,27 @@ function Contact() {
             </svg>
           </a>
         </div>
+        <div className="sm:hidden">
+          <button className="text-gray-800 hover:text-indigo-500 flex items-center hover:-translate-y-1 transition duration-300 ease-in-out">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              className="h-16 w-16"
+              viewBox="0 0 24 24"
+              strokeWidth="1.5"
+              stroke="currentColor"
+              fill="none"
+              strokeLinecap="round"
+              strokeLinejoin="round"
+            >
+              <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+              <rect x="3" y="5" width="18" height="14" rx="2" />
+              <polyline points="3 7 12 13 21 7" />
+            </svg>
+          </button>
+        </div>
       </div>
-      {/* <div className="max-w-md mx-auto mt-8">
+
+      <div className="max-w-md mx-auto mt-14 hidden sm:block">
         <h2 className="text-2xl font-bold text-gray-800 flex justify-center mt-8">
           Send me a message
         </h2>
@@ -88,7 +122,7 @@ function Contact() {
           I'll get back to you as soon as possible.
         </p>
 
-        <form>
+        <form onSubmit={handleSubmit}>
           <div className="mb-4 rounded-md sm:px-4 px-8">
             <label htmlFor="name" className="text-gray-800">
               Name:
@@ -137,7 +171,7 @@ function Contact() {
             </button>
           </div>
         </form>
-      </div> */}
+      </div>
     </div>
   );
 }
