@@ -44,7 +44,7 @@ function Habilities() {
         <div className="w-2/3">
           <div className="flex justify-center mb-4">
             <button
-              className={`px-4 py-4 mr-2 rounded-lg  ${
+              className={`px-2 py-2 sm:px-4 sm:py-4 mr-2 rounded-lg  ${
                 currentCategory === "frameworks"
                   ? "bg-blue-500 text-white"
                   : "bg-gray-200 hover:bg-gray-300"
@@ -55,7 +55,7 @@ function Habilities() {
             </button>
 
             <button
-              className={`px-4 py-4 mr-2 rounded-lg ${
+              className={`px-2 py-2 sm:px-4 sm:py-4 mr-2 rounded-lg ${
                 currentCategory === "languages"
                   ? "bg-blue-500 text-white"
                   : "bg-gray-200 hover:bg-gray-300"
@@ -65,7 +65,7 @@ function Habilities() {
               Languages
             </button>
             <button
-              className={`px-4 py-4 rounded-lg ${
+              className={`px-2 py-2 sm:px-4 sm:py-4 rounded-lg ${
                 currentCategory === "technologies"
                   ? "bg-blue-500 text-white"
                   : "bg-gray-200 hover:bg-gray-300"
@@ -77,10 +77,13 @@ function Habilities() {
           </div>
 
           <div className="flex justify-center">
-            <div className="w-1/2">
-              <ul className="flex justify-center">
+            <div className="sm:w-full">
+              <ul className="flex justify-center flex-wrap">
                 {categories[currentCategory].map((item) => (
-                  <li key={item} className="bg-gray-200 p-4 m-2 rounded shadow">
+                  <li
+                    key={item}
+                    className="bg-gray-200 sm:p-4 sm:m-2 rounded shadow p-2 m-1"
+                  >
                     {item}
                   </li>
                 ))}

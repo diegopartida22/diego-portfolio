@@ -25,9 +25,21 @@ function About() {
         </p>
       </div>
       <div className="flex justify-center gap-4">
-        <img src="/images/Volley.PNG" className="w-36" alt="Rubik-Cube" />
-        <img src="/images/Rubik.PNG" className="w-36" alt="Rubik-Cube" />
-        <img src="/images/Epañeman.PNG" className="w-36" alt="Rubik-Cube" />
+        <img
+          src="/images/Volley.PNG"
+          className="w-24 sm:w-36"
+          alt="Rubik-Cube"
+        />
+        <img
+          src="/images/Rubik.PNG"
+          className="w-24 sm:w-36"
+          alt="Rubik-Cube"
+        />
+        <img
+          src="/images/Epañeman.PNG"
+          className="w-24 sm:w-36"
+          alt="Rubik-Cube"
+        />
       </div>
     </div>
   );

@@ -28,6 +28,10 @@ function NavBar() {
     };
   }, []);
 
+  const handleMenuToggle = () => {
+    setShowMenu(!showMenu);
+  };
+
   return (
     <div id="navbar">
       <div
@@ -146,6 +150,7 @@ function NavBar() {
                     spy={true}
                     exact="true"
                     offset={-80}
+                    onClick={handleMenuToggle}
                   >
                     Home
                   </Link>
@@ -159,6 +164,7 @@ function NavBar() {
                     spy={true}
                     exact="true"
                     offset={-80}
+                    onClick={handleMenuToggle}
                   >
                     About
                   </Link>
@@ -172,6 +178,7 @@ function NavBar() {
                     spy={true}
                     exact="true"
                     offset={-80}
+                    onClick={handleMenuToggle}
                   >
                     Projects
                   </Link>
@@ -185,6 +192,7 @@ function NavBar() {
                     spy={true}
                     exact="true"
                     offset={-80}
+                    onClick={handleMenuToggle}
                   >
                     Contact
                   </Link>
@@ -195,6 +203,7 @@ function NavBar() {
                     href="./assets/DiegoPartida_Resume.pdf"
                     download="DiegoPartida_Resume.pdf"
                     className="text-gray-900 hover:font-bold hover:text-orange-500 flex flex-row gap-2"
+                    onClick={handleMenuToggle}
                   >
                     CV
                     <svg

@@ -9,7 +9,7 @@ import Habilities from "./components/Habilities";
 
 function App() {
   return (
-    <>
+    <div className="w-full h-full">
       <NavBar />
       <Home />
       <About />
@@ -17,7 +17,7 @@ function App() {
       <Habilities />
       <Contact />
       <Footer />
-    </>
+    </div>
   );
 }
 
