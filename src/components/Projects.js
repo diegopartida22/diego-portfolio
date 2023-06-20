@@ -12,7 +12,7 @@ function Projects() {
     {
       title: "Numerologist Portfolio",
       description:
-        "Technical skills in React.js and Bootstrap, with a deep understanding of front-end development best practices.",
+        "A portfolio for a numerologist, where she can show her services and her clients can book appointments. This was my first freelance project. I developed the front-end with React.js and Bootstrap.",
       imageUrl: "/images/MarychelyPortfolio.png",
       link: "https://marychelyromero.com/",
     },
@@ -31,16 +31,16 @@ function Projects() {
     {
       title: "SOLFund",
       description:
-        "This is my portfolio, where I show my projects and my skills.",
+        "A blockchain-based crowdfunding platform that allows users to create and invest in projects using the Solana blockchain.",
       imageUrl: "/images/SolFund.png",
-      link: "https://diegopartida.netlify.app/",
+      link: "https://sol-funding.vercel.app/",
     },
     {
       title: "Car Selling Web-App",
       description:
-        "This is my portfolio, where I show my projects and my skills.",
+        "Developed a API REST with Node.js and Express.js for a car selling website, using SQL Server as database. The front-end was developed with React.js and Tailwind.",
       imageUrl: "/images/Car-Selling.png",
-      link: "https://diegopartida.netlify.app/",
+      link: "https://car-selling-website-tau.vercel.app/",
     },
     {
       title: "Scheduling Web-App",
