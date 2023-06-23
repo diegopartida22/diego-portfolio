@@ -13,7 +13,7 @@ function Projects() {
       title: "Numerologist Portfolio",
       description:
         "A portfolio for a numerologist, where she can show her services and her clients can book appointments. This was my first freelance project. I developed the front-end with React.js and Bootstrap.",
-      imageUrl: "/images/MarychelyPortfolio.png",
+      imageUrl: "/images/Numerologist.png",
       link: "https://marychelyromero.com/",
     },
     // {
@@ -47,6 +47,7 @@ function Projects() {
       description:
         "Developed an automated scheduling system that makes it easier to manage your daily tasks.",
       imageUrl: "/images/SchedulingApp.png",
+      link: "https://compass-app.vercel.app/",
     },
     {
       title: "My Portfolio",
