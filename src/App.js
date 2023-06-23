@@ -6,6 +6,7 @@ import About from "./components/About";
 import Contact from "./components/Contact";
 import Footer from "./components/Footer";
 import Habilities from "./components/Habilities";
+import FollowingCircle from "./components/FollowingCircle";
 
 function App() {
   const [pageLoaded, setPageLoaded] = useState(false);
@@ -43,15 +44,18 @@ function App() {
       )}
 
       {pageLoaded && (
-        <div className="w-full h-full animate-appearLong">
-          <NavBar />
-          <Home />
-          <About />
-          <Projects />
-          <Habilities />
-          <Contact />
-          <Footer />
-        </div>
+        <>
+          <FollowingCircle />
+          <div className="w-full h-full animate-appearLong">
+            <NavBar />
+            <Home />
+            <About />
+            <Projects />
+            <Habilities />
+            <Contact />
+            <Footer />
+          </div>
+        </>
       )}
     </div>
   );
