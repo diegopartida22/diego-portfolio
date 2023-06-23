@@ -35,7 +35,7 @@ function NavBar() {
   return (
     <div id="navbar">
       <div
-        className={`font-bold text-s sm:text-xl flex justify-center p-6 mb-6 shadow-md fixed top-0 w-full bg-white z-10  transition-all duration-500 ${
+        className={`font-bold text-s sm:text-2xl flex justify-center p-6 mb-6 shadow-md fixed top-0 w-full bg-white z-10  transition-all duration-500 ${
           showNavbar ? "opacity-100 animate-slide-up" : "opacity-0"
         }`}
       >
@@ -61,7 +61,7 @@ function NavBar() {
               duration={500}
               spy={true}
               exact="true"
-              offset={-80}
+              offset={-180}
             >
               About
             </Link>
@@ -74,7 +74,7 @@ function NavBar() {
               duration={500}
               spy={true}
               exact="true"
-              offset={-80}
+              offset={-10}
             >
               Projects
             </Link>
@@ -97,7 +97,7 @@ function NavBar() {
       <div
         className={`font-bold text-lg sm:p-6 mb-6 fixed top-0 right-0 z-20 transition-all duration-500 ${
           showMenuToggle
-            ? "opacity-100 animate-slide-left"
+            ? "animate-slide-left opacity-100 "
             : "animate-slide-right opacity-0"
         }`}
       >
@@ -121,9 +121,9 @@ function NavBar() {
           </svg>
         </button>
         <div
-          className={`fixed text-xl top-20 sm:top-32 right-4 sm:right-10 bg-gray-300 p-2 sm:p-6 w-11/12  sm:w-60 rounded-md shadow-lg transition-all duration-500 ${
+          className={`fixed text-xl sm:text-2xl top-20 sm:top-32 right-4 sm:right-10 bg-gray-300 p-2 sm:p-6 w-11/12 sm:w-80 rounded-md shadow-lg transition-all duration-500 ${
             showMenu
-              ? "opacity-100 animate-slide-left"
+              ? "animate-slide-left opacity-100"
               : "animate-slide-right translate-x-full opacity-0"
           }`}
         >
@@ -185,7 +185,7 @@ function NavBar() {
                 duration={500}
                 spy={true}
                 exact="true"
-                offset={-80}
+                offset={-10}
                 onClick={handleMenuToggle}
               >
                 Projects

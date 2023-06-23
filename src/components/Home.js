@@ -31,7 +31,7 @@ function Home() {
           download="DiegoPartida_Resume.pdf"
           className="flex flex-row gap-2 hover:font-bold hover:text-orange-500 transition duration-300"
         >
-          Download CV
+          Download Resume
           <svg
             xmlns="http://www.w3.org/2000/svg"
             fill="none"

@@ -45,7 +45,7 @@ function Habilities() {
         <div className="w-2/3">
           <div className="flex justify-center mb-4">
             <button
-              className={`px-1.5 py-3 sm:px-4 sm:py-4 mr-2 rounded-md  ${
+              className={`px-1.5 py-3 sm:px-4 sm:py-4 mr-4 rounded-md hover:transform hover:scale-110 transition duration-500 ease-in-out  ${
                 currentCategory === "frameworks"
                   ? "bg-blue-500 text-white"
                   : "bg-gray-200 hover:bg-gray-300"
@@ -72,7 +72,7 @@ function Habilities() {
             </button>
 
             <button
-              className={`px-1.5 py-3 sm:px-4 sm:py-4 mr-2 rounded-md ${
+              className={`px-1.5 py-3 sm:px-4 sm:py-4 mr-4 rounded-md hover:transform hover:scale-110 transition duration-500 ease-in-out ${
                 currentCategory === "languages"
                   ? "bg-blue-500 text-white"
                   : "bg-gray-200 hover:bg-gray-300"
@@ -98,7 +98,7 @@ function Habilities() {
               </div>
             </button>
             <button
-              className={`px-1.5 py-3 sm:px-4 sm:py-4 rounded-md ${
+              className={`px-1.5 py-3 sm:px-4 sm:py-4 rounded-md hover:transform hover:scale-110 transition duration-500 ease-in-out ${
                 currentCategory === "technologies"
                   ? "bg-blue-500 text-white"
                   : "bg-gray-200 hover:bg-gray-300"
