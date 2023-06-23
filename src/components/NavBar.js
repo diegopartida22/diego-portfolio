@@ -121,10 +121,10 @@ function NavBar() {
           </svg>
         </button>
         <div
-          className={`absolute text-xl top-20 sm:top-32 right-4 sm:right-10 bg-gray-300 p-2 sm:p-6 w-96 sm:w-60 rounded-md shadow-lg transition-all duration-500 ${
+          className={`fixed text-xl top-20 sm:top-32 right-4 sm:right-10 bg-gray-300 p-2 sm:p-6 w-11/12  sm:w-60 rounded-md shadow-lg transition-all duration-500 ${
             showMenu
               ? "opacity-100 animate-slide-left"
-              : "animate-slide-right opacity-0"
+              : "animate-slide-right translate-x-full opacity-0"
           }`}
         >
           <ul className="flex flex-col gap-6 sm:ml-6">
