@@ -36,7 +36,7 @@ function About() {
           alt="Rubik-Cube"
         />
         <img
-          src="/images/Epañeman.PNG"
+          src="/images/Spiderman.PNG"
           className="w-24 sm:w-36"
           alt="Rubik-Cube"
         />

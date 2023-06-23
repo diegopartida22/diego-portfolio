@@ -1,4 +1,4 @@
-@keyframes slideDown {
+@keyframes slideLeft {
   from {
     transform: translateX(100%);
   }
@@ -7,8 +7,22 @@
   }
 }
 
-.animate-slide-down {
-  animation-name: slideDown;
+.animate-slide-left {
+  animation-name: slideLeft;
+  animation-duration: 0.7s;
+}
+
+@keyframes slideRight {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(100%);
+  }
+}
+
+.animate-slide-right {
+  animation-name: slideRight;
   animation-duration: 0.7s;
 }
 

@@ -27,9 +27,9 @@ function Home() {
 
       <div className="flex justify-center mt-8 text-xl sm:text-3xl text-gray-600">
         <a
-          href="./assets/DiegoPartida_Resume.pdf"
+          href="./assets/DiegoResume.pdf"
           download="DiegoPartida_Resume.pdf"
-          className="hover:font-bold hover:text-orange-500 flex flex-row gap-2"
+          className="flex flex-row gap-2 hover:font-bold hover:text-orange-500 transition duration-300"
         >
           Download CV
           <svg

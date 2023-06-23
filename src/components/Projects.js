@@ -53,7 +53,7 @@ function Projects() {
       description:
         "This is my portfolio, where I show my projects and my skills.",
       imageUrl: "/images/MyPortfolio.png",
-      link: "https://diegopartida.netlify.app/",
+      link: "https://diegopartida-portfolio.vercel.app/",
     },
   ];
 
