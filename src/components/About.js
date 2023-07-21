@@ -26,17 +26,17 @@ function About() {
       </div>
       <div className="flex justify-center gap-4">
         <img
-          src="/images/Volley.PNG"
+          src="/images/Volley.webp"
           className="w-24 sm:w-36"
           alt="Rubik-Cube"
         />
         <img
-          src="/images/Rubik.PNG"
+          src="/images/Rubik.webp"
           className="w-24 sm:w-36"
           alt="Rubik-Cube"
         />
         <img
-          src="/images/Spiderman.PNG"
+          src="/images/Spiderman.webp"
           className="w-24 sm:w-36"
           alt="Rubik-Cube"
         />

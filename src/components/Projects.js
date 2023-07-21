@@ -6,54 +6,54 @@ function Projects() {
       title: "ApeironAI",
       description:
         "Developed a range of tools for creative and practical applications such as coding, marketing, art, and typography.",
-      imageUrl: "/images/ApeironAI.png",
+      imageUrl: "/images/ApeironAI.webp",
       link: "https://www.apeiron-ai.com/",
     },
     {
       title: "Numerologist Portfolio",
       description:
         "A portfolio for a numerologist, where she can show her services and her clients can book appointments. This was my first freelance project. I developed the front-end with React.js and Bootstrap.",
-      imageUrl: "/images/Numerologist.png",
+      imageUrl: "/images/Numerologist.webp",
       link: "https://marychelyromero.com/",
     },
     // {
     //   title: "Diagnosis of malaria through a red blood cell",
     //   description:
     //     "Developed a MatLab App for malaria diagnosis using non-uniform electric fields to analyze red blood cells.",
-    //   imageUrl: "/images/MalariaDiagnosis.png",
+    //   imageUrl: "/images/MalariaDiagnosis.webp",
     // },
     // {
     //   title: "Phylogenetic tree of SARS-COV-2 variants in different countries",
     //   description:
     //     "Created a phylogenetic tree of SARS-COV-2 variants in different countries using RStudio program and NCBI database.",
-    //   imageUrl: "/images/SARS-COV-2PhylogeneticTree.png",
+    //   imageUrl: "/images/SARS-COV-2PhylogeneticTree.webp",
     // },
     {
       title: "SOLFund",
       description:
         "A blockchain-based crowdfunding platform that allows users to create and invest in projects using the Solana blockchain.",
-      imageUrl: "/images/SolFund.png",
+      imageUrl: "/images/SolFund.webp",
       link: "https://sol-funding.vercel.app/",
     },
     {
       title: "Car Selling Web-App",
       description:
         "Developed a API REST with Node.js and Express.js for a car selling website, using SQL Server as database. The front-end was developed with React.js and Tailwind.",
-      imageUrl: "/images/Car-Selling.png",
+      imageUrl: "/images/Car-Selling.webp",
       link: "https://car-selling-website-tau.vercel.app/",
     },
     {
       title: "Scheduling Web-App",
       description:
         "Developed an automated scheduling system that makes it easier to manage your daily tasks.",
-      imageUrl: "/images/SchedulingApp.png",
+      imageUrl: "/images/SchedulingApp.webp",
       link: "https://compass-app.vercel.app/",
     },
     {
       title: "My Portfolio",
       description:
         "This is my portfolio, where I show my projects and my skills.",
-      imageUrl: "/images/MyPortfolio.png",
+      imageUrl: "/images/MyPortfolio.webp",
       link: "https://diegopartida-portfolio.vercel.app/",
     },
   ];
