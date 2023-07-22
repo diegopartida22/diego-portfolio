@@ -1,6 +1,7 @@
 # Personal Portfolio
 
-This is a personal portfolio website built using React, styled with Tailwind CSS, and deployed on Vercel. It serves as a platform to showcase my skills, projects, and experiences, enabling me to highlight my accomplishments, share my work with others, and connect with potential employers or collaborators.
+[Diego Partida's Personal Portfolio](https://diegopartida-portfolio.vercel.app/)
+
 
 ## Table of Contents
 
