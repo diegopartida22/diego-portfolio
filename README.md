@@ -100,9 +100,9 @@ MIT License
 
 If you want to get in touch with me or explore more of my work, you can reach me at:
 
-- Email: diegopartidaromero@.com
-- LinkedIn: [LinkedIn Profile](https://www.linkedin.com/in/diegopartidaromero/)
-- GitHub: [GitHub Profile](https://github.com/diegopartida22/)
+- Email: diegopartidaromero@gmail.com
+- LinkedIn: [diegopartidaromero](https://www.linkedin.com/in/diegopartidaromero/)
+- GitHub: [diegopartida22](https://github.com/diegopartida22/)
 
 ---
 
