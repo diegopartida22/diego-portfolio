@@ -66,7 +66,7 @@ function Contact() {
           >
             <svg
               xmlns="http://www.w3.org/2000/svg"
-              className="h-16 w-16"
+              className="h-14 w-14 sm:h-16 sm:w-16"
               viewBox="0 0 24 24"
               strokeWidth="1.5"
               stroke="currentColor"
@@ -92,7 +92,7 @@ function Contact() {
           >
             <svg
               xmlns="http://www.w3.org/2000/svg"
-              className="h-16 w-16"
+              className="h-14 w-14 sm:h-16 sm:w-16"
               viewBox="0 0 24 24"
               strokeWidth="1.5"
               stroke="currentColor"

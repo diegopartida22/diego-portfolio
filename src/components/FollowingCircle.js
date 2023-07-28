@@ -40,7 +40,6 @@ function FollowingCircle() {
             opacity: 0.5,
             pointerEvents: "none",
             zIndex: 9999,
-            transition: "0.001s ease-in-out",
           }}
         ></div>
       )}

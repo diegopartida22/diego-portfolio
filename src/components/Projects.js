@@ -1,4 +1,5 @@
 import React from "react";
+import Atropos from "atropos/react";
 
 function Projects() {
   const projects = [
@@ -86,11 +87,13 @@ function Projects() {
             className="bg-white rounded-lg shadow-lg hover:cursor-pointer hover:scale-105 transform transition-transform duration-300"
             onClick={() => window.open(project.link, "_blank")}
           >
-            <img
-              src={project.imageUrl}
-              alt={project.title}
-              className="w-full object-cover object-center rounded-t-lg animate-appearShort"
-            />
+            <Atropos>
+              <img
+                src={project.imageUrl}
+                alt={project.title}
+                className="w-full object-cover object-center rounded-t-lg animate-appearShort"
+              />
+            </Atropos>
             <div className="p-6">
               <h2 className="text-2xl font-bold text-gray-800 mb-2">
                 {project.title}
