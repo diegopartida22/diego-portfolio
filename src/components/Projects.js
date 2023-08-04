@@ -1,8 +1,14 @@
 import React from "react";
-import Atropos from "atropos/react";
 
 function Projects() {
   const projects = [
+    {
+      title: "Sol D Noche",
+      description:
+        "A e-commerce website for a beaded bags and jewerly. I developed the front-end with React.js and Tailwind. I also developed the back-end with Node.js and Express.js, using Firebase as database, and Stripe for payments.",
+      imageUrl: "/images/SolDNoche.webp",
+      link: "https://soldnoche.com/",
+    },
     {
       title: "ApeironAI",
       description:
@@ -43,13 +49,13 @@ function Projects() {
       imageUrl: "/images/Car-Selling.webp",
       link: "https://car-selling-website-tau.vercel.app/",
     },
-    {
-      title: "Scheduling Web-App",
-      description:
-        "Developed an automated scheduling system that makes it easier to manage your daily tasks.",
-      imageUrl: "/images/SchedulingApp.webp",
-      link: "https://compass-app.vercel.app/",
-    },
+    // {
+    //   title: "Scheduling Web-App",
+    //   description:
+    //     "Developed an automated scheduling system that makes it easier to manage your daily tasks.",
+    //   imageUrl: "/images/SchedulingApp.webp",
+    //   link: "https://compass-app.vercel.app/",
+    // },
     {
       title: "My Portfolio",
       description:
@@ -87,13 +93,11 @@ function Projects() {
             className="bg-white rounded-lg shadow-lg hover:cursor-pointer hover:scale-105 transform transition-transform duration-300"
             onClick={() => window.open(project.link, "_blank")}
           >
-            <Atropos>
-              <img
-                src={project.imageUrl}
-                alt={project.title}
-                className="w-full object-cover object-center rounded-t-lg animate-appearShort"
-              />
-            </Atropos>
+            <img
+              src={project.imageUrl}
+              alt={project.title}
+              className="w-full object-cover object-center rounded-t-lg animate-appearShort"
+            />
             <div className="p-6">
               <h2 className="text-2xl font-bold text-gray-800 mb-2">
                 {project.title}
