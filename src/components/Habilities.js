@@ -35,7 +35,7 @@ function Habilities() {
   };
 
   return (
-    <div className="mt-12" id="habilities">
+    <div className="mt-12 hidden sm:block" id="habilities">
       <hr className="border-2 border-gray-200 w-1/4 mx-auto" />
       <h1 className="text-4xl sm:text-5xl font-bold text-gray-800 flex justify-center mt-8">
         Habilities
