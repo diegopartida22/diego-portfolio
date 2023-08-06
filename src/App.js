@@ -18,7 +18,7 @@ function App() {
   }, []);
 
   return (
-    <div className="h-screen w-screen bg-gray-100 dark:bg-gray-900 overflow-x-hidden">
+    <div className="h-[100vh]">
       {!pageLoaded && (
         <div className="flex items-center justify-center h-screen">
           <div role="status">
