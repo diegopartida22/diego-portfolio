@@ -40,5 +40,5 @@ module.exports = withMT({
       },
     },
   },
-  plugins: [],
+  plugins: [require("postcss-nesting")],
 });
