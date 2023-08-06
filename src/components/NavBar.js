@@ -95,14 +95,14 @@ function NavBar() {
         </ul>
       </div>
       <div
-        className={`font-bold text-lg sm:p-6 mb-6 fixed top-0 right-0 z-20 transition-all duration-500 ${
+        className={`font-bold text-lg sm:p-6 mb-6 fixed top-0 right-0 z-20 transition-all duration-200 ${
           showMenuToggle
             ? "animate-slide-left opacity-100 "
             : "animate-slide-right opacity-0"
         }`}
       >
         <button
-          className="text-gray-300 bg-gray-800 hover:bg-gray-600 rounded-md p-2 sm:p-4 m-4 transition duration-500 ease-in-out"
+          className="text-gray-300 bg-gray-800 hover:bg-gray-600 rounded-md p-2 sm:p-4 m-4 transition duration-200 ease-in-out"
           onClick={() => setShowMenu(!showMenu)}
         >
           <svg
@@ -121,7 +121,7 @@ function NavBar() {
           </svg>
         </button>
         <div
-          className={`fixed text-xl sm:text-2xl top-20 sm:top-32 right-4 sm:right-10 bg-gray-300 p-2 sm:p-6 w-11/12 sm:w-80 rounded-md shadow-lg transition-all duration-500 ${
+          className={`fixed text-xl sm:text-2xl top-20 sm:top-32 right-4 sm:right-10 bg-gray-300 p-2 sm:p-6 w-11/12 sm:w-80 rounded-md shadow-lg transition-all duration-200 ${
             showMenu
               ? "animate-slide-left opacity-100"
               : "animate-slide-right translate-x-full opacity-0"
