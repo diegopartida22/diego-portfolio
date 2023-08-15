@@ -21,7 +21,7 @@ function Home() {
 
       <img
         src="/images/pixelme.webp"
-        className="w-64 sm:w-96 mx-auto mt-8 rounded-xl border-4 border-gray-200"
+        className="w-64 sm:w-96 mx-auto mt-8 rounded-xl border-gray-200"
         alt="Me pixelated"
       />
 

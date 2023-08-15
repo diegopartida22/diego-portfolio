@@ -89,7 +89,7 @@ function Habilities() {
               ></span>
               <span className="absolute inset-0 w-full h-full transition-all duration-200 ease-in-out delay-100 bg-blue-500 rounded-md opacity-0 group-hover:opacity-100 "></span>
               <span
-                className={`relative text-blue-500 transition-colors duration-200 ease-in-out delay-100 group-hover:text-white ${
+                className={`relative text-gray-900 transition-colors duration-200 ease-in-out delay-100 group-hover:text-white ${
                   currentCategory === "frameworks" ? "text-white" : ""
                 }`}
               >
@@ -131,7 +131,7 @@ function Habilities() {
               ></span>
               <span className="absolute inset-0 w-full h-full transition-all duration-200 ease-in-out delay-100 bg-blue-500 rounded-md opacity-0 group-hover:opacity-100 "></span>
               <span
-                className={`relative text-blue-500 transition-colors duration-200 ease-in-out delay-100 group-hover:text-white ${
+                className={`relative text-gray-900 transition-colors duration-200 ease-in-out delay-100 group-hover:text-white ${
                   currentCategory === "languages" ? "text-white" : ""
                 }`}
               >
@@ -173,7 +173,7 @@ function Habilities() {
               ></span>
               <span class="absolute inset-0 w-full h-full transition-all duration-200 ease-in-out delay-100 bg-blue-500 rounded-md opacity-0 group-hover:opacity-100 "></span>
               <span
-                class={`relative text-blue-500 transition-colors duration-200 ease-in-out delay-100 group-hover:text-white ${
+                class={`relative text-gray-900 transition-colors duration-200 ease-in-out delay-100 group-hover:text-white ${
                   currentCategory === "technologies" ? "text-white" : ""
                 }`}
               >
