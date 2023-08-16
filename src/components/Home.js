@@ -20,8 +20,8 @@ function Home() {
       </div>
 
       <img
-        src="/images/me.webp"
-        className="w-64 sm:w-96 mx-auto mt-8 rounded-xl border-gray-200"
+        src="/images/ME.png"
+        className="w-64 h-64 sm:w-96 sm:h-96 mx-auto mt-8 rounded-full border-gray-200"
         alt="Me pixelated"
       />
 
