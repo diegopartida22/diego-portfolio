@@ -47,7 +47,7 @@ function Habilities() {
             {/* <button
               className={`px-1.5 py-3 sm:px-4 sm:py-4 mr-2 rounded-md  ${
                 currentCategory === "frameworks"
-                  ? "bg-blue-500 text-white"
+                  ? "bg-gray-800 text-white"
                   : "bg-gray-200 hover:bg-gray-300"
               }`}
               onClick={() => handleCategoryChange("frameworks")}
@@ -76,18 +76,18 @@ function Habilities() {
               class="relative inline-flex items-center justify-center px-6 py-3 text-lg tracking-tighter text-white bg-gray-800 rounded-md group"
             >
               <span
-                class={`absolute inset-0 w-full h-full mt-1 ml-1 transition-all duration-300 ease-in-out bg-blue-500 rounded-md group-hover:mt-0 group-hover:ml-0 ${
+                class={`absolute inset-0 w-full h-full mt-1 ml-1 transition-all duration-300 ease-in-out bg-gray-800 rounded-md group-hover:mt-0 group-hover:ml-0 ${
                   currentCategory === "frameworks" ? "opacity-0" : ""
                 }`}
               ></span>
               <span
                 className={`absolute inset-0 w-full h-full rounded-md ${
                   currentCategory === "frameworks"
-                    ? "bg-blue-500"
+                    ? "bg-gray-800"
                     : "bg-gray-200"
                 }`}
               ></span>
-              <span className="absolute inset-0 w-full h-full transition-all duration-200 ease-in-out delay-100 bg-blue-500 rounded-md opacity-0 group-hover:opacity-100 "></span>
+              <span className="absolute inset-0 w-full h-full transition-all duration-200 ease-in-out delay-100 bg-gray-800 rounded-md opacity-0 group-hover:opacity-100 "></span>
               <span
                 className={`relative text-gray-900 transition-colors duration-200 ease-in-out delay-100 group-hover:text-white ${
                   currentCategory === "frameworks" ? "text-white" : ""
@@ -118,18 +118,18 @@ function Habilities() {
               className="relative inline-flex items-center justify-center px-6 py-3 text-lg tracking-tighter text-white bg-gray-800 rounded-md group"
             >
               <span
-                className={`absolute inset-0 w-full h-full mt-1 ml-1 transition-all duration-300 ease-in-out bg-blue-500 rounded-md group-hover:mt-0 group-hover:ml-0 ${
+                className={`absolute inset-0 w-full h-full mt-1 ml-1 transition-all duration-300 ease-in-out bg-gray-800 rounded-md group-hover:mt-0 group-hover:ml-0 ${
                   currentCategory === "languages" ? "opacity-0" : ""
                 }`}
               ></span>
               <span
                 className={`absolute inset-0 w-full h-full rounded-md ${
                   currentCategory === "languages"
-                    ? "bg-blue-500"
+                    ? "bg-gray-800"
                     : "bg-gray-200"
                 }`}
               ></span>
-              <span className="absolute inset-0 w-full h-full transition-all duration-200 ease-in-out delay-100 bg-blue-500 rounded-md opacity-0 group-hover:opacity-100 "></span>
+              <span className="absolute inset-0 w-full h-full transition-all duration-200 ease-in-out delay-100 bg-gray-800 rounded-md opacity-0 group-hover:opacity-100 "></span>
               <span
                 className={`relative text-gray-900 transition-colors duration-200 ease-in-out delay-100 group-hover:text-white ${
                   currentCategory === "languages" ? "text-white" : ""
@@ -160,18 +160,18 @@ function Habilities() {
               className="relative inline-flex items-center justify-center px-6 py-3 text-lg tracking-tighter text-white bg-gray-800 rounded-md group"
             >
               <span
-                className={`absolute inset-0 w-full h-full mt-1 ml-1 transition-all duration-300 ease-in-out bg-blue-500 rounded-md group-hover:mt-0 group-hover:ml-0 ${
+                className={`absolute inset-0 w-full h-full mt-1 ml-1 transition-all duration-300 ease-in-out bg-gray-800 rounded-md group-hover:mt-0 group-hover:ml-0 ${
                   currentCategory === "technologies" ? "opacity-0" : ""
                 }`}
               ></span>
               <span
                 className={`absolute inset-0 w-full h-full rounded-md ${
                   currentCategory === "technologies"
-                    ? "bg-blue-500"
+                    ? "bg-gray-800"
                     : "bg-gray-200"
                 }`}
               ></span>
-              <span class="absolute inset-0 w-full h-full transition-all duration-200 ease-in-out delay-100 bg-blue-500 rounded-md opacity-0 group-hover:opacity-100 "></span>
+              <span class="absolute inset-0 w-full h-full transition-all duration-200 ease-in-out delay-100 bg-gray-800 rounded-md opacity-0 group-hover:opacity-100 "></span>
               <span
                 class={`relative text-gray-900 transition-colors duration-200 ease-in-out delay-100 group-hover:text-white ${
                   currentCategory === "technologies" ? "text-white" : ""
@@ -200,7 +200,7 @@ function Habilities() {
             {/* <button
               className={`px-1.5 py-3 sm:px-4 sm:py-4 rounded-md ${
                 currentCategory === "technologies"
-                  ? "bg-blue-500 text-white"
+                  ? "bg-gray-800 text-white"
                   : "bg-gray-200 hover:bg-gray-300"
               }`}
               onClick={() => handleCategoryChange("technologies")}
