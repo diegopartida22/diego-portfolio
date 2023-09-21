@@ -21,7 +21,7 @@ function Home() {
 
       <img
         src="/images/ME.png"
-        className="w-60 h-60 sm:w-80 sm:h-80 mx-auto mt-8 rounded-full border-gray-200 hover:scale-110 transform transition duration-300"
+        className="w-60 h-60 sm:w-80 sm:h-80 mx-auto mt-8 rounded-full border-gray-200"
         alt="Me pixelated"
       />
 

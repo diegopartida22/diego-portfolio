@@ -39,10 +39,10 @@ function NavBar() {
           showNavbar ? "opacity-100 animate-slide-up" : "opacity-0"
         }`}
       >
-        <ul className="flex flex-row gap-6">
+        <ul className="flex flex-row gap-6 group">
           <li>
             <Link
-              className="text-gray-900 hover:font-bold hover:text-orange-500 cursor-pointer"
+              className="text-gray-700 font-bold hover:text-orange-500 cursor-pointer"
               to="home"
               smooth={true}
               duration={500}
@@ -55,7 +55,7 @@ function NavBar() {
           </li>
           <li>
             <Link
-              className="text-gray-900 hover:font-bold hover:text-orange-500 cursor-pointer"
+              className="text-gray-700 font-bold hover:text-orange-500 cursor-pointer"
               to="about"
               smooth={true}
               duration={500}
@@ -68,7 +68,7 @@ function NavBar() {
           </li>
           <li>
             <Link
-              className="text-gray-900 hover:font-bold hover:text-orange-500 cursor-pointer"
+              className="text-gray-700 font-bold hover:text-orange-500 cursor-pointer"
               to="projects"
               smooth={true}
               duration={500}
@@ -81,7 +81,7 @@ function NavBar() {
           </li>
           <li>
             <Link
-              className="text-gray-900 hover:font-bold hover:text-orange-500 cursor-pointer"
+              className="text-gray-700 font-bold hover:text-orange-500 cursor-pointer"
               to="contact"
               smooth={true}
               duration={500}
