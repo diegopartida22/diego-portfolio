@@ -1,5 +1,6 @@
 import { useState, useEffect } from "react";
 import { Link } from "react-scroll";
+import { Link as RouterLink } from "react-router-dom";
 import "./NavBar.css";
 
 function NavBar() {
@@ -91,6 +92,14 @@ function NavBar() {
             >
               Contact
             </Link>
+          </li>
+          <li>
+            <RouterLink
+              className="text-yellow-700 font-bold hover:text-orange-500 cursor-pointer"
+              to="/blog"
+            >
+              Blog
+            </RouterLink>
           </li>
         </ul>
       </div>

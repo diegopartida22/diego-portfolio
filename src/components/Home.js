@@ -10,7 +10,7 @@ function Home() {
         <p className="mt-8 mx-4 sm:mx-auto text-center">
           I'm a{" "}
           <span className="font-bold text-blue-500">
-            full-stack web developer
+            front-end web developer
           </span>
         </p>
 
