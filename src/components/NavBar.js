@@ -215,6 +215,15 @@ function NavBar() {
               </Link>
             </li>
 
+            <li>
+              <RouterLink
+                className="text-gray-900 font-bold hover:text-orange-500 cursor-pointer"
+                to="/blog"
+              >
+                Blog
+              </RouterLink>
+            </li>
+
             <li className="flex justify-center sm:justify-start mb-10">
               <a
                 href="./assets/DiegoResume.pdf"
