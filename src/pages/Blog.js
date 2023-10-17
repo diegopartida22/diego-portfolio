@@ -6,7 +6,7 @@ function Blog() {
   return (
     <div className="mt-32 flex justify-center flex-col" id="blog">
       <NavBarBlog />
-      <div className="w-11/12 sm:w-3/4 mx-auto">
+      <div className="w-full sm:w-3/4 mx-auto">
         <h1 className="text-3xl sm:text-6xl font-bold text-gray-800 text-center">
           Blog
         </h1>
