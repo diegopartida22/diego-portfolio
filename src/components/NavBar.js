@@ -36,7 +36,7 @@ function NavBar() {
   return (
     <div id="navbar">
       <div
-        className={`font-bold text-s sm:text-2xl flex justify-center p-6 mb-6 shadow-md fixed top-0 w-full bg-white z-10  transition-all duration-500 ${
+        className={`font-bold text-s sm:text-2xl flex justify-center p-6 mb-6 shadow-md fixed top-0 w-full bg-white z-30  transition-all duration-500 ${
           showNavbar ? "opacity-100 animate-slide-up" : "opacity-0"
         }`}
       >

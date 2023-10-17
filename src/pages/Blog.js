@@ -6,13 +6,13 @@ function Blog() {
   return (
     <div className="mt-32 flex justify-center flex-col" id="blog">
       <NavBarBlog />
-      <div className="w-3/4 mx-auto">
+      <div className="w-11/12 sm:w-3/4 mx-auto">
         <h1 className="text-3xl sm:text-6xl font-bold text-gray-800 text-center">
           Blog
         </h1>
 
         <div className="p-10 sm:px-20 text-gray-700 text-lg">
-          <h2 className="text-2xl font-bold text-gray-800">
+          <h2 className="text-xl sm:text-2xl font-bold text-gray-800">
             A personal view of the history of testing in software systems
           </h2>
 
@@ -70,7 +70,7 @@ function Blog() {
           </p>
         </div>
 
-        <div className="p-10 sm:px-20 text-gray-700 text-lg">
+        <div className="p-10 sm:px-20 text-gray-700 text-xs sm:text-lg">
           References:
           <ul className="list-disc list-inside pl-1">
             <li>
