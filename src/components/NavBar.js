@@ -43,7 +43,7 @@ function NavBar() {
         <ul className="flex flex-row gap-6 group">
           <li>
             <Link
-              className="text-gray-700 font-bold hover:text-orange-500 cursor-pointer"
+              className="text-gray-700 font-bold hover:text-orange-500 cursor-pointer hidden sm:block"
               to="home"
               smooth={true}
               duration={500}
