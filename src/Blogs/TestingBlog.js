@@ -13,12 +13,12 @@ function TestingBlog() {
           className="object-cover object-center rounded-t-lg animate-appearShort w-full sm:px-20 mx-auto"
         />
 
-        <h1 className="text-3xl sm:text-6xl font-bold text-gray-800 text-center mt-4">
+        <h1 className="text-3xl sm:text-6xl font-bold text-gray-800 text-center mt-8 p-0 sm:px-20">
           A personal view of the history of testing in software systems
         </h1>
 
         <div className="p-10 sm:px-20 text-gray-700 text-lg">
-          <p className="mt-4">
+          <p>
             Software testing has come a long way since its humble beginnings in
             the mid-20th century. In the early days, testing was largely manual
             and ad-hoc, with developers simply using the software themselves to
