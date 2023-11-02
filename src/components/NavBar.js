@@ -95,7 +95,7 @@ function NavBar() {
           </li>
           <li>
             <RouterLink
-              className="text-yellow-700 font-bold hover:text-orange-500 cursor-pointer"
+              className="text-gray-700 font-bold hover:text-orange-500 cursor-pointer"
               to="/blog"
             >
               Blog
