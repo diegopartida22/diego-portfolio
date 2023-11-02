@@ -1,6 +1,6 @@
 # Personal Portfolio
 
-[Diego Partida's Personal Portfolio](https://diegopartida-portfolio.vercel.app/)
+[Diego Partida's Personal Portfolio](https://diegopartidar.com/)
 
 
 ## Table of Contents
