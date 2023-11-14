@@ -62,7 +62,9 @@ function Blog() {
         </div>
       </div>
 
-      <Footer />
+      <div className="sm:bottom-0 relative sm:absolute w-full">
+        <Footer />
+      </div>
     </div>
   );
 }
