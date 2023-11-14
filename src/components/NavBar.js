@@ -37,7 +37,7 @@ function NavBar() {
     <div id="navbar">
       <div
         className={`font-bold text-s sm:text-2xl flex justify-center p-6 mb-6 shadow-md fixed top-0 w-full bg-white z-30  transition-all duration-500 ${
-          showNavbar ? "opacity-100 animate-slide-up" : "opacity-0"
+          showNavbar ? "opacity-100 animate-slide-up" : "opacity-0 absolute"
         }`}
       >
         <ul className="flex flex-row gap-6 group">
@@ -125,7 +125,7 @@ function NavBar() {
             <path
               strokeLinecap="round"
               strokeLinejoin="round"
-              d="M3.75 9h16.5m-16.5 6.75h16.5"
+              d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5"
             />
           </svg>
         </button>
